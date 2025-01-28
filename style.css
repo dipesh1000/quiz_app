@@ -1,0 +1,108 @@
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #fbafbe;
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.quiz-box {
+     width: 800px;
+     background-image: url('/images/bgimage.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     padding: 2em;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     position: relative;
+}
+.quiz-container {
+     width: 400px;
+     padding: 20px;
+     margin: 0 auto;
+    
+}
+.quiz-container h1 {
+     text-align: center;
+}
+.question {
+     font-size: 18px;
+     margin-bottom: 20px;
+}
+.options {
+     margin-bottom: 20px;
+}
+.quiz-scores {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+}
+.scoresbox {
+     font-size: 16px;
+     font-weight: 600;
+     border: 1px solid orangered;
+     background-color: orangered;
+     color: #fff;
+     padding: 4px 15px;
+     border-radius: 20px;
+}
+.timer {
+ 
+     border: 1px solid orangered;
+     background-color: orangered;
+    
+}
+.score {
+     
+     border: 1px solid blue;
+     background-color: blue;
+
+}
+
+.options button {
+     width: 100%;
+     padding: 15px;
+     margin: 5px 0;
+     font-size: 16px;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     cursor: pointer;
+     background-color: #f9f9f9;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.progress-bar {
+     width: 100%;
+     background-color: #f0f0f0;
+     height: 15px;
+     border-radius: 20px;
+     margin-bottom: 10px;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.progress {
+     width: 0%;
+     height: 100%;
+     background-color: green;
+     transition: width 0.3s ease;
+     border-radius: 20px;
+}
+.trophy {
+     width: 150px;
+     position: absolute;
+     top: 20px;
+     left: 20px;
+}
+
+
+.qna {
+     width: 150px;
+     position: absolute;
+     bottom: 20px;
+     right: 20px;
+}
+.trophy img, .qna img{ 
+     width: 100%;
+}
